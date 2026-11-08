@@ -20,5 +20,11 @@ The **Time** button speeds up time (×10, ×60) for testing.
 
 ## Files
 
-- `index.html`: the whole game (HTML, CSS and JavaScript, no build step)
-- `sprites/*.mp4`: the animations (960px, 25 fps, H.264)
+```
+index.html        page structure (HTML only)
+css/style.css     all styles
+js/game.js        game logic: animation player, stats, feeding, exercise, sleep, sounds, notifications
+sprites/*.mp4     the animations (960px, 25 fps, H.264)
+```
+
+No build step: open `index.html` and it loads the CSS, JavaScript and videos next to it.
